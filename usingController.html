@@ -1,0 +1,17 @@
+<html>
+<head>
+<script src= "http://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+</head>
+<body>
+<div ng-app="usingController" ng-controller="collegeNames">
+<p>List of colleges</p>
+</br>
+<ul>
+	<li ng-repeat="z in college">
+	{{z.name}}
+	</li>
+</ul>
+</div>
+<script src="controller.js"></script>
+</body>
+</html>
